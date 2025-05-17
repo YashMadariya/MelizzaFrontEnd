@@ -78,18 +78,18 @@ Version:	1.1
 		/*===============================
 			Hero Slider JS
 		=================================*/ 
-		$(".hero-slider").owlCarousel({
-			loop:true,
-			autoplay:true,
-			smartSpeed: 500,
-			autoplayTimeout:3500,
-			singleItem: true,
-			autoplayHoverPause:true,
-			items:1,
-			nav:true,
-			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-			dots:false,
-		});
+		// $(".hero-slider").owlCarousel({
+		// 	loop:true,
+		// 	autoplay:true,
+		// 	smartSpeed: 500,
+		// 	autoplayTimeout:3500,
+		// 	singleItem: true,
+		// 	autoplayHoverPause:true,
+		// 	items:1,
+		// 	nav:true,
+		// 	navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		// 	dots:false,
+		// });
 
 		/*===============================
 			Testimonial Slider JS
@@ -126,30 +126,7 @@ Version:	1.1
 		/*===============================
 			Portfolio Slider JS
 		=================================*/ 
-		$('.portfolio-slider').owlCarousel({
-			autoplay:true,
-			autoplayTimeout:4000,
-			margin:15,
-			smartSpeed:300,
-			autoplayHoverPause:true,
-			loop:true,
-			nav:true,
-			dots:false,
-			responsive:{
-				300: {
-					items:1,
-				},
-				480: {
-					items:2,
-				},
-				768: {
-					items:2,
-				},
-				1170: {
-					items:4,
-				},
-			}
-		});
+		
 		
 		/*=====================================
 			Counter Up JS
