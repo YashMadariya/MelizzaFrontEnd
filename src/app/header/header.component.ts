@@ -10,6 +10,12 @@ declare var $: any;
     styleUrl: './header.component.css'
 })
 export class HeaderComponent implements AfterViewInit {
+  isNavCollapsed = true;
+  closeMenu() {
+  if (window.innerWidth < 992) { // Bootstrap lg breakpoint
+    this.isNavCollapsed = true;
+  }
+}
   ngAfterViewInit(): void {
     /*====================================
 			Mobile Menu

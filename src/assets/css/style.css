@@ -317,7 +317,6 @@ body{
 	box-shadow: none;
 	border: none;
 	margin: 0;
-	height: 0px;
 	min-height: 0px;
 }
 .header .nav li{
@@ -4299,4 +4298,9 @@ body{
 
 .iti--allow-dropdown{
 	min-width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+	font-weight: 500;
 }
