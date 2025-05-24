@@ -66,14 +66,7 @@ Version:	1.1
 			$('.search-top').toggleClass('active');
 		});
 		
-		/*====================================
-			Mobile Menu
-		======================================*/ 	
-		$('.menu').slicknav({
-			prependTo:".mobile-nav",
-			duration: 300,
-			closeOnClick:true,
-		});
+		
 		
 		/*===============================
 			Hero Slider JS
@@ -275,25 +268,6 @@ Version:	1.1
 		$.stellar({
 		  horizontalOffset: 0,
 		  verticalOffset: 0
-		});
-
-		/*====================
-			Google Maps JS
-		======================*/
-		var map = new GMaps({
-				el: '#map',
-				lat: 23.011245,
-				lng: 90.884780,
-				scrollwheel: false,
-			});
-			map.addMarker({
-				lat: 23.011245,
-				lng: 90.884780,
-				title: 'Marker with InfoWindow',
-				infoWindow: {
-				content: '<p>welcome to Medipro</p>'
-			}
-		
 		});
 	});
 	

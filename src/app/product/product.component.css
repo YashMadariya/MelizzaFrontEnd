@@ -1,0 +1,4 @@
+:host ::ng-deep .p-datatable {
+  background-color: #ffffff !important; /* or any custom color */
+  color: #000000 !important;
+}
