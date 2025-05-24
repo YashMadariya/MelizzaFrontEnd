@@ -4288,3 +4288,15 @@ body{
   .product-table tbody tr{
 	  line-height: 0;
   }
+
+.dropdown-menu{
+    max-height: 250px !important; 
+}
+
+.iti__country-list { 
+    max-height: 200px !important; 
+}
+
+.iti--allow-dropdown{
+	min-width: 100%;
+}

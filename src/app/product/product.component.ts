@@ -6,11 +6,11 @@ import { Subject, Subscription } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-product',
-  standalone: true,
-  imports: [TreeTableModule, CommonModule],
-  templateUrl: './product.component.html',
-  styleUrl: './product.component.css'
+    selector: 'app-product',
+    imports: [TreeTableModule, CommonModule],
+    standalone:true,
+    templateUrl: './product.component.html',
+    styleUrl: './product.component.css'
 })
 export class ProductComponent implements OnInit {
   files: TreeNode[] = [];

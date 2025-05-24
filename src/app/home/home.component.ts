@@ -3,11 +3,11 @@ import { RouterLink } from '@angular/router';
 declare var $: any;
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    imports: [RouterLink],
+	standalone: true,
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css'
 })
 export class HomeComponent implements AfterViewInit {
   ngAfterViewInit(): void {
