@@ -33,7 +33,6 @@ export class ContactusComponent {
   }
 
   onSubmit(){
-    debugger
     this.isSubmit = true;
     if (this.inquiryForm.invalid) {
       return;
